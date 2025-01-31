@@ -5,21 +5,21 @@
   font-family: "Inter", sans-serif;
   font-size: 46px;
   font-weight: 500;
-  line-height: 55.67px;
+  line-height: 55px;
   color: #fff;
 }
 
 body {
   font-family: sans-serif;
   font-size: 46px;
-  line-height: 55.67px;
+  line-height: 55px;
   color: #fff;
 }
 
 .btn {
   background-color: #343434;
-  width: 137.21px;
-  height: 173.48px;
+  width: 135px;
+  height: 115px;
   border: none;
   border-radius: 10px;
   align-items: center;
@@ -31,31 +31,42 @@ body {
   display: flex;
   align-content: center;
   justify-content: center;
+  width: 135px;
+  height: 175px;
+}
+
+.btn-plus {
+  height: 545px;
+}
+
+.btn-right-box {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .calculator-body {
-  width: 646.76px;
-  height: 1228.13px;
+  width: 650px;
+  height: 1230px;
   margin: 50px auto 0 auto;
-  padding: 23.54px 18.54px;
+  padding: 24px 18px;
   background-color: #17171c;
   border-radius: 20px;
 }
 
 .calculator-elements {
   /* margin: 23.54px 18.54px; */
-  width: 608.84px;
-  height: 1181.05px;
+  width: 610px;
+  height: 1180px;
   display: flex;
   flex-direction: column;
-  gap: 23.54px;
+  gap: 24px;
   /* background-color: red; */
 }
 
 .text-input {
   display: flex;
   width: 608.84px;
-  height: 115.02px;
+  height: 115px;
   margin: 0;
   padding: 30px;
   text-align: right;
@@ -69,15 +80,24 @@ body {
 .content {
   background-color: red;
   display: flex;
+  justify-content: space-between;
 }
 
 .numbers {
   display: flex;
   flex-direction: column;
-  width: 451.21px;
+  width: 450px;
+  gap: 15px;
 }
 
 .operators {
   display: flex;
   flex-direction: column;
+  gap: 15px;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
